@@ -1,5 +1,7 @@
 <script setup >
 import navbar from './components/navbar.vue';
+import Herosection from './components/Herosection.vue';
+import home from './components/home.vue';
 // import {ref} from 'vue';
 
 //   const name = ref('vue3');
@@ -20,7 +22,16 @@ import navbar from './components/navbar.vue';
 </script>
 
 <template>
-<navbar></navbar>
+<div>
+    <navbar></navbar>
+    <Herosection title="this is title"></Herosection>
+    <h1 class='text-4xl font-extrabold text-white sm:text-5xl md:text-6xl'>
+  {{ title }}
+  <home></home>
+</h1>
+
+</div>
+  
 </template>
 
 <style scoped>
