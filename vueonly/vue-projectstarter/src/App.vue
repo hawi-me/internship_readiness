@@ -2,6 +2,7 @@
 import navbar from './components/navbar.vue';
 import Herosection from './components/Herosection.vue';
 import home from './components/home.vue';
+import Footer from './components/Footer.vue';
 // import {ref} from 'vue';
 
 //   const name = ref('vue3');
@@ -28,6 +29,7 @@ import home from './components/home.vue';
     <h1 class='text-4xl font-extrabold text-white sm:text-5xl md:text-6xl'>
   {{ title }}
   <home></home>
+  <footer></footer>
 </h1>
 
 </div>
